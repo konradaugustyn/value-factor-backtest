@@ -1,6 +1,6 @@
-# Value factor backtest, 1926–2026: did the premium survive?
+# Value factor backtest, 1926-2026
 
-A long-short backtest of the value factor (long the cheapest, short the most expensive book-to-market decile) on 100 years of US stock data. The premium almost disappeared in the last 10 years: a Sharpe ratio of 0.04, against 0.26 in 1926–2016, and a drawdown of about 63% in 2018–2020.
+A long-short backtest of the value factor (long the cheapest, short the most expensive book-to-market decile) on 100 years of US stock data. The premium almost disappeared in the last 10 years: a Sharpe ratio of 0.04, against 0.26 in 1926-2016, and a drawdown of about 63% in 2018–2020.
 
 Written for the course Asset Allocation and Investment Strategies (MSc Quantitative Finance, University of Warsaw), October 2026. This is my own part of a team homework.
 
@@ -29,7 +29,7 @@ last 10 years (2016-2026)       -1.77%    22.95%      0.04   -67.45%
 2018-2020                      -25.34%    21.54%     -1.23   -62.95%
 ```
 
-The 2018–2020 drawdown restarts at zero in January 2018; the strategy was already falling before 2018.
+The 2018-2020 drawdown restarts at zero in January 2018; the strategy was already falling before 2018.
 
 ![Value long-short drawdown, 2018-2020](drawdown_2018-2020.png)
 
@@ -39,7 +39,7 @@ The whole-period drawdown starts in July 1926. The strategy declined from around
 
 ## Did the premium survive?
 
-The value premium weakened sharply. In the last 10 years the Sharpe ratio dropped to 0.04, from 0.26 in 1926–2016, so there is almost no return per unit of risk. In 2018–2020 the strategy fell by about 63%. From its lowest point in 2020 (around -82%) the drawdown has narrowed to about -61%, which means the strategy roughly doubled from its bottom, `(1 - 0.61) / (1 - 0.82) ≈ 2`, but it is still far below its 2007 peak. One possible reason is crowding: value has been widely traded since Fama and French's 1992 paper.
+The value premium weakened sharply. In the last 10 years the Sharpe ratio dropped to 0.04, from 0.26 in 1926-2016, so there is almost no return per unit of risk. In 2018-2020 the strategy fell by about 63%. From its lowest point in 2020 (around -82%) the drawdown has narrowed to about -61%, which means the strategy roughly doubled from its bottom, `(1 - 0.61) / (1 - 0.82) ≈ 2`, but it is still far below its 2007 peak. One possible reason is crowding: value has been widely traded since Fama and French's 1992 paper.
 
 ## How to run
 
